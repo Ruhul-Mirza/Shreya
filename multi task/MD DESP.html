@@ -1,0 +1,534 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+  <body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="/shreya.html">Shreya</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="dropdownContent" role="button" data-bs-toggle="dropdown">Home</a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownContent">
+                          <li class="dropdown-submenu">
+                              <a class="dropdown-item dropdown-toggle" href="#">Excel Files</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="/home/excelquery.html">Excel Query</a></li>
+                              </ul>
+                          </li>
+                          <li><a class="dropdown-item" href="/home/taxdeclaration.html">Tax Declaration</a></li>
+                          <li><a class="dropdown-item" href="/home/secsaleamadeus.html">Sec Sale Amadeus</a></li>
+                          <li><a class="dropdown-item" href="/home/secsaleakubio.html">Sec Sale Akubio</a></li>
+                          <li><a class="dropdown-item" href="/home/consignment.html">Consignment Tracking</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="dropdownCrossTabs" role="button" data-bs-toggle="dropdown">Cross Tabs</a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownCrossTabs">
+                          <li><a class="dropdown-item" href="/cross tabs/depotStocks.html">Depot Stocks</a></li>
+                          <li><a class="dropdown-item" href="/cross tabs/monthEndStocks.html">MonthEnd Stocks</a></li>
+                          <li><a class="dropdown-item" href="/cross tabs/stockExpiry.html">Stock Expiry</a></li>
+                          <li><a class="dropdown-item" href="/cross tabs/depotDebtors.html">Depot Debtors</a></li>
+                          <li><a class="dropdown-item" href="/cross tabs/pendingOrders.html">Pending Orders</a></li>
+                          <li><a class="dropdown-item" href="/cross tabs/depotCollection.html">Depot Collection</a></li>
+                          <li><a class="dropdown-item" href="/cross tabs/advanceCollection.html">Advance Collection</a></li>
+                          <li><a class="dropdown-item" href="/cross tabs/mdDespatches.html">MD Despatches</a></li>
+                          <li><a class="dropdown-item" href="/cross tabs/sampleDespatches.html">Sample Despatches</a></li>
+                          <li><a class="dropdown-item" href="/cross tabs/factoryReceipts.html">Factory Receipts</a></li>
+                          <li class="dropdown-submenu">
+                              <a class="dropdown-item dropdown-toggle" href="#">Primary</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="/cross tabs/Primary/team.html">Team</a></li>
+                                  <li><a class="dropdown-item" href="/cross tabs/Primary/depot.html">Depot</a></li>
+                                  <li><a class="dropdown-item" href="/cross tabs/Primary/stockist.html">Stockist</a></li>
+                              </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                              <a class="dropdown-item dropdown-toggle" href="#">Secondary</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="/cross tabs/Secondary/teamSecondary.html">Team</a></li>
+                                  <li><a class="dropdown-item" href="/cross tabs/Secondary/depotSecondary.html">Depot</a></li>
+                                  <li><a class="dropdown-item" href="/cross tabs/Secondary/stockistSecondary.html">Stockist</a></li>
+                                  <li><a class="dropdown-item" href="/cross tabs/Secondary/regionSecondary.html">Region</a></li>
+                                  <li><a class="dropdown-item" href="/cross tabs/Secondary/ASMSecondary.html">ASM</a></li>
+                                  <li><a class="dropdown-item" href="/cross tabs/Secondary/HQSecondary.html">HQ</a></li>
+                              </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                              <a class="dropdown-item dropdown-toggle" href="#">HQ Expenses</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="/cross tabs/HQ Expenses/HQ.html">HQ</a></li>
+                              </ul>
+                          </li>
+                          <li><a class="dropdown-item" href="/cross tabs/HQStocklistCredits.html">HQ Stocklist Credits</a></li>
+                          <li><a class="dropdown-item" href="/cross tabs/creditPolicy.html">Credit Policy</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown active">
+                      <a class="nav-link dropdown-toggle" href="#" id="dropdownMultiTabs" role="button" data-bs-toggle="dropdown">Multi Tabs</a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMultiTabs">
+                          <li class="dropdown-submenu">
+                              <a class="dropdown-item dropdown-toggle" href="#">Product Billing</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="/multi task/Product Billing/team.html">Team</a></li>
+                                  <li><a class="dropdown-item" href="/multi task/Product Billing/depot.html">Depot</a></li>
+                                  <li><a class="dropdown-item" href="/multi task/Product Billing/stockist.html">Stockist</a></li>
+                              </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                              <a class="dropdown-item dropdown-toggle" href="#">Product Budget</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="/multi task/Product Budget/teamcredited.html">Team Credited</a></li>
+                                  <li><a class="dropdown-item" href="/multi task/Product Budget/RM.html">RM</a></li>
+                                  <li><a class="dropdown-item" href="/multi task/Product Budget/ASM.html">ASM</a></li>
+                                  <li><a class="dropdown-item" href="/multi task/Product Budget/HQ.html">HQ</a></li>
+                              </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                              <a class="dropdown-item dropdown-toggle" href="#">Secondary FL</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="/multi task/Secondary FL/secondaryteam.html">Team</a></li>
+                                  <li><a class="dropdown-item" href="/multi task/Secondary FL/secondarydepot.html">Depot</a></li>
+                                  <li><a class="dropdown-item" href="/multi task/Secondary FL/secondarystocklist.html">Stockist</a></li>
+                                  <li><a class="dropdown-item" href="/multi task/Secondary FL/secondaryteamcredited.html">Team Credited</a></li>
+                                  <li><a class="dropdown-item" href="/multi task/Secondary FL/secondaryRM.html">RM</a></li>
+                                  <li><a class="dropdown-item" href="/multi task/Secondary FL/secondaryASM.html">ASM</a></li>
+                                  <li><a class="dropdown-item" href="/multi task/Secondary FL/secondaryHQ.html">HQ</a></li>
+                              </ul>
+                          </li>
+                          <li><a class="dropdown-item" href="/multi task/MD DESP.html">MD Desp</a></li>
+                          <li><a class="dropdown-item" href="/multi task/PndORD.html">PndOrd vs Stock</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="dropdownOnline" role="button" data-bs-toggle="dropdown">Online</a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownOnline">
+                          <li><a class="dropdown-item" href="#">Upload Status</a></li>
+                          <li class="dropdown-submenu">
+                              <a class="dropdown-item dropdown-toggle" href="#">Budget vs Actual</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="/online/Budget vs Actual/HQProduct.html">HQ Product</a></li>
+                                  <li><a class="dropdown-item" href="/online/Budget vs Actual/ASM-HQProduct.html">ASM-HQ Product</a></li>
+                                  <li><a class="dropdown-item" href="/online/Budget vs Actual/RM-HQProduct.html">RM-HQ Product</a></li>
+                                  <li><a class="dropdown-item" href="/online/Budget vs Actual/Crp-HQProduct.html">Crp-HQ Product</a></li>
+                                  <li><a class="dropdown-item" href="/online/Budget vs Actual/HQBrand.html">HQ Brand</a></li>
+                                  <li><a class="dropdown-item" href="/online/Budget vs Actual/ASM-HQBrand.html">ASM-HQ Brand</a></li>
+                                  <li><a class="dropdown-item" href="/online/Budget vs Actual/RM-HQBrand.html">RM-HQ Brand</a></li>
+                                  <li><a class="dropdown-item" href="/online/Budget vs Actual/Crp-HQBrand.html">Crp-HQ Brand</a></li>
+                                  <li><a class="dropdown-item" href="/online/Budget vs Actual/HQBusiness.html">HQ Business</a></li>
+                                  <li><a class="dropdown-item" href="/online/Budget vs Actual/ASMBusiness.html">ASM Business</a></li>
+                                  <li><a class="dropdown-item" href="/online/Budget vs Actual/RMBusiness.html">RM Business</a></li>
+                                  <li><a class="dropdown-item" href="/online/Budget vs Actual/CrpBusiness.html">Crp Business</a></li>
+                              </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                              <a class="dropdown-item dropdown-toggle" href="#">Distribution</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="/online/Distribution/TransitConsignments.html">Transit Consignments</a></li>
+                                  <li><a class="dropdown-item" href="/online/Distribution/ConsignHist.html">Consign Hist</a></li>
+                                  <li><a class="dropdown-item" href="/online/Distribution/PartyLocked.html">Party Locked</a></li>
+                                  <li><a class="dropdown-item" href="/online/Distribution/BatchTracing.html">Batch Tracing</a></li>
+                                  <li><a class="dropdown-item" href="/online/Distribution/BatchWiseStocks.html">BatchWise Stocks</a></li>
+                              </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                              <a class="dropdown-item dropdown-toggle" href="#">Online Stocks</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="/online/Online Stocks/ProductXDepot.html">Product X Depot</a></li>
+                                  <li><a class="dropdown-item" href="/online/Online Stocks/DepotXProduct.html">Depot X Product</a></li>
+                              </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                              <a class="dropdown-item dropdown-toggle" href="#">Online Billing</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="/online/Online Billing/ProductXDepot.html">Product X Depot</a></li>
+                                  <li><a class="dropdown-item" href="/online/Online Billing/DepotXProduct.html">Depot X Product</a></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="dropdownOrganograms" role="button" data-bs-toggle="dropdown">Organograms</a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownOrganograms">
+                          <li><a class="dropdown-item" href="/organograms/HeadQuarters.html">Head Quarters</a></li>
+                          <li><a class="dropdown-item" href="/organograms/Organogram1.html">Organogram-1</a></li>
+                          <li><a class="dropdown-item" href="/organograms/Organogram2.html">Organogram-2</a></li>
+                          <li><a class="dropdown-item" href="/organograms/StockistHQCredits.html">Stockist-HQ credits</a></li>
+                      </ul>
+                  </li>
+              </ul>
+              <button class="btn btn-outline-danger ms-2" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                  <i class="bi bi-box-arrow-right"></i>
+              </button>
+          </div>
+      </div>
+  </nav>
+
+  <!-- Logout Modal -->
+  <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="logoutModalLabel">Logout</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  Do you want to logout?
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                  <button type="button" class="btn btn-primary">Yes</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <div class="container my-4">
+      <h3 class="text-center mb-4 text-primary fw-bold">
+        SHREYA SAMIR : ONLINE MOTHER DEPOT DESPATCHES CORPORATE VIEW
+      </h3>
+
+      <!-- Form for Filters -->
+      <div
+        class="form-container border border-tertiary rounded shadow-md p-4 mb-4"
+      >
+        <form name="prdselect" method="POST" action="#">
+          <div class="row g-3">
+            <!-- Cross Tab -->
+            <div class="col-md-3">
+              <label for="dropdown1-1" class="form-label text-secondary"
+                >Cross Tab:</label
+              >
+              <select id="dropdown1-1" name="dropdown1-1" class="form-select">
+                <option value="PRODUCT X DATE">Product X Date</option>
+                <option value="DATE X PRODUCT">Date X Product</option>
+                <option value="PRODUCT X MONTH">Product X Month</option>
+                <option value="BRAND X MONTH">Brand X Month</option>
+                <option value="MONTH X BRAND">Month X Brand</option>
+                <option value="MONTH X PRODUCT">Month X Product</option>
+                <option value="PRODUCT X TEAM">Product X Team</option>
+                <option value="TEAM X PRODUCT">Team X Product</option>
+                <option value="TEAM X MONTH">Team X Month</option>
+                <option value="MONTH X TEAM">Month X Team</option>
+                <option value="PRODUCT X FA YEAR">Product X FA Year</option>
+                <option value="FA YEAR X PRODUCT">FA Year X Product</option>
+                <option value="TEAM X FA YEAR">Team X FA Year</option>
+                <option value="FA YEAR X TEAM">FA Year X Team</option>
+              </select>
+            </div>
+
+            <!-- SBU -->
+            <div class="col-md-3">
+              <label for="dropdown1-2" class="form-label text-secondary"
+                >SBU:</label
+              >
+              <select id="dropdown1-2" name="dropdown1-2" class="form-select">
+                <option value="AKUBIO">AKUBIO</option>
+                <option value="AMADEUS" selected="">AMADEUS</option>
+                <option value="COMMERCIAL">COMMERCIAL</option>
+                <option value="OTHERS">OTHERS</option>
+                <option value="ALL">ALL</option>
+              </select>
+            </div>
+
+            <!-- Team -->
+            <div class="col-md-3">
+              <label for="dropdown1-3" class="form-label text-secondary"
+                >Team:</label
+              >
+              <select id="dropdown1-3" name="dropdown1-3" class="form-select">
+                <option value="000001" selected="">AMADEUS</option>
+                <option value="ALL">ALL</option>
+              </select>
+            </div>
+
+            <!-- Show SQL -->
+            <div class="col-md-3">
+              <label for="dropdown1-4" class="form-label text-secondary"
+                >Show SQL:</label
+              >
+              <select id="dropdown1-4" name="dropdown1-4" class="form-select">
+                <option value="YES">YES</option>
+                <option value="NO" selected="">NO</option>
+              </select>
+            </div>
+
+            <!-- Fin Yr -->
+            <div class="col-md-3">
+              <label for="dropdown2-1" class="form-label text-secondary"
+                >Fin Yr:</label
+              >
+              <select id="dropdown2-1" name="dropdown2-1" class="form-select">
+                <option value="304">2003-2004</option>
+                <option value="405">2004-2005</option>
+                <option value="506">2005-2006</option>
+                <option value="607">2006-2007</option>
+                <option value="708">2007-2008</option>
+                <option value="809">2008-2009</option>
+                <option value="910">2009-2010</option>
+                <option value="1011">2010-2011</option>
+                <option value="1112">2011-2012</option>
+                <option value="1213">2012-2013</option>
+                <option value="1314">2013-2014</option>
+                <option value="1415">2014-2015</option>
+                <option value="1516">2015-2016</option>
+                <option value="1617">2016-2017</option>
+                <option value="1718">2017-2018</option>
+                <option value="1819">2018-2019</option>
+                <option value="1920">2019-2020</option>
+                <option value="2021">2020-2021</option>
+                <option value="2122">2021-2022</option>
+                <option value="2223">2022-2023</option>
+                <option value="2324">2023-2024</option>
+                <option value="2425" selected="">2024-2025</option>
+                <option value="ALL">ALL</option>
+              </select>
+            </div>
+
+            <!--Type -->
+            <div class="col-md-3">
+              <label for="dropdown2-2" class="form-label text-secondary"
+                >Type:</label
+              >
+              <select id="dropdown2-2" name="dropdown2-2" class="form-select">
+                <option value="PRODUCTS">Products</option>
+                <option value="SAMPLES">Samples</option>
+                <option value="GIFTS">Gifts</option>
+                <option value="LITERATURE">Literature</option>
+           
+              </select>
+            </div>
+
+            <!-- Month -->
+            <div class="col-md-3">
+              <label for="dropdown2-3" class="form-label text-secondary"
+                >Month:</label
+              >
+              <select id="dropdown2-3" name="dropdown2-3" class="form-select">
+                <option value="201408">Aug-24</option>
+                <option value="201407">Jul-24</option>
+                <option value="201406">Jun-24</option>
+                <option value="201405">May-24</option>
+                <option value="201404">Apr-24</option>
+              </select>
+            </div>
+
+            <!-- Summing -->
+            <div class="col-md-3">
+              <label for="dropdown2-4" class="form-label text-secondary"
+                >Summing:</label
+              >
+              <select id="dropdown2-4" name="dropdown2-4" class="form-select">
+                <option value="MTD" selected="">MTD</option>
+                <option value="YTD">YTD</option>
+                <option value="QTD">QTD</option>
+              </select>
+            </div>
+            <!--Brand-->
+            <div class="col-md-3">
+              <label for="dropdown3-1" class="form-label text-secondary"
+                >Brand:</label
+              >
+              <select id="dropdown3-1" name="dropdown3-1" class="form-select">
+                <option value="APTIMUM">APTIMUM</option>
+                <option value="APTIPLEX">APTIPLEX</option>
+                <option value="AZON">AZON</option>
+                <option value="BENEFLORA">BENEFLORA</option>
+                <option value="CALSTRON">CALSTRON</option>
+                <option value="CELIRA">CELIRA</option>
+                <option value="CERTANE">CERTANE</option>
+                <option value="CLEAN-O-PALMS">CLEAN-O-PALMS</option>
+                <option value="COLOPAX">COLOPAX</option>
+                <option value="COMECTIN">COMECTIN</option>
+                <option value="COSAKA">COSAKA</option>
+                <option value="D3">D3</option>
+                <option value="DEFLATE">DEFLATE</option>
+                <option value="DEXAMET">DEXAMET</option>
+                <option value="DIGEMAX">DIGEMAX</option>
+                <option value="DIGEPLEX">DIGEPLEX</option>
+                <option value="DOLCERA">DOLCERA</option>
+                <option value="DROTASPA">DROTASPA</option>
+                <option value="EMIDOXYN">EMIDOXYN</option>
+                <option value="EMIDOXYN-MD">EMIDOXYN-MD</option>
+                <option value="EVOMATE">EVOMATE</option>
+                <option value="GONADOS">GONADOS</option>
+                <option value="HAEMOFERON">HAEMOFERON</option>
+                <option value="HEALEX">HEALEX</option>
+                <option value="HEALEX-SPRAY">HEALEX-SPRAY</option>
+                <option value="HIBRID">HIBRID</option>
+                <option value="HYNIDASE">HYNIDASE</option>
+                <option value="HYNIDASE-INJ">HYNIDASE-INJ</option>
+                <option value="IMFERON">IMFERON</option>
+                <option value="IMMUZEST">IMMUZEST</option>
+                <option value="ITOGUARD">ITOGUARD</option>
+                <option value="JULAX">JULAX</option>
+                <option value="KINGCEF">KINGCEF</option>
+                <option value="LEE">LEE</option>
+                <option value="LINTRAN">LINTRAN</option>
+                <option value="LIVODERM">LIVODERM</option>
+                <option value="LOMODEX">LOMODEX</option>
+                <option value="MEDICREME">MEDICREME</option>
+                <option value="MPLONE">MPLONE</option>
+                <option value="NIMI">NIMI</option>
+                <option value="OSTEOCALCIN">OSTEOCALCIN</option>
+                <option value="OTHER">OTHER</option>
+                <option value="OZOTHINE">OZOTHINE</option>
+                <option value="PLANOKUFLS">PLANOKUFLS</option>
+                <option value="PRIMEDASE">PRIMEDASE</option>
+                <option value="PRIMEDASE-D">PRIMEDASE-D</option>
+                <option value="PSEUDICEF">PSEUDICEF</option>
+                <option value="RABEPRO">RABEPRO</option>
+                <option value="RABEPRO-D">RABEPRO-D</option>
+                <option value="RABIPACE">RABIPACE</option>
+                <option value="RALCIDIN">RALCIDIN</option>
+                <option value="RALGESIC">RALGESIC</option>
+                <option value="RALLIDEX">RALLIDEX</option>
+                <option value="RALROX">RALROX</option>
+                <option value="RELYTE">RELYTE</option>
+                <option value="RENELATE">RENELATE</option>
+                <option value="RESTOPLATE">RESTOPLATE</option>
+                <option value="RIBOFLAVINE">RIBOFLAVINE</option>
+                <option value="SALMONCAL">SALMONCAL</option>
+                <option value="SARIL-INF">SARIL-INF</option>
+                <option value="SARIL-TAB-SUSP">SARIL-TAB-SUSP</option>
+                <option value="SURGICLOZ">SURGICLOZ</option>
+                <option value="SWIFTOLAC">SWIFTOLAC</option>
+                <option value="SWIFTOLAC150">SWIFTOLAC150</option>
+                <option value="T-ZOX">T-ZOX</option>
+                <option value="TAMBY">TAMBY</option>
+                <option value="TD-36 (BRK/EXPIRY)">TD-36 (BRK/EXPIRY)</option>
+                <option value="TD-36">TD-36</option>
+                <option value="TD-36 XP (BRK/EXPIRY)">
+                  TD-36 XP (BRK/EXPIRY)
+                </option>
+                <option value="TOBZ">TOBZ</option>
+                <option value="TRIVENG">TRIVENG</option>
+                <option value="VALIGUD">VALIGUD</option>
+                <option value="VBC">VBC</option>
+                <option value="VIROHEP">VIROHEP</option>
+                <option value="WLE">WLE</option>
+                <option value="WRONG">WRONG</option>
+                <option value="XENOBID">XENOBID</option>
+                <option value="XTUM">XTUM</option>
+                <option value="XTUM-O">XTUM-O</option>
+                <option value="ZIMALGIN">ZIMALGIN</option>
+                <option value="ZINCDT">ZINCDT</option>
+                <option value="ALL">ALL</option>
+              </select>
+            </div>
+
+            <!-- Product -->
+            <div class="col-md-3">
+              <label for="dropdown3-2" class="form-label text-secondary"
+                >Product:</label
+              >
+              <select id="dropdown3-2" name="dropdown3-2" class="form-select">
+                <option value="Value">All</option>
+              </select>
+            </div>
+            <!-- Field -->
+            <div class="col-md-3">
+              <label for="dropdown3-3" class="form-label text-secondary"
+                >Field:</label
+              >
+              <select id="dropdown3-3" name="dropdown3-3" class="form-select">
+                <option value="QTY">Qty</option>
+                <option value="Value">Value</option>
+                <option value="LacVal" selected="">Value In Lacs</option>
+              </select>
+            </div>
+
+            <!-- Zone -->
+            <div class="col-md-3">
+                <label for="dropdown3-4" class="form-label text-secondary"
+                  >Zone:</label
+                >
+                <select id="dropdown3-4" name="dropdown3-4" class="form-select">
+                  <option value="NORTH">North</option>
+                  <option value="SOUTH">South</option>
+                  <option value="EAST">East</option>
+                  <option value="WEST">West</option>
+                  <option value="CENTRAL">Central</option>
+                  <option value="All">All</option>
+                </select>
+              </div>
+  
+              <!-- Depot -->
+              <div class="col-md-3">
+                <label for="dropdown4-1" class="form-label text-secondary"
+                  >Depot:</label
+                >
+                <select id="dropdown4-1" name="dropdown4-1" class="form-select">
+                  <option value="ALL" selected="">ALL</option>
+                </select>
+              </div>
+
+            <!-- Data -->
+            <div class="col-md-3">
+              <label for="dropdown4-2" class="form-label text-secondary"
+                >Data:</label
+              >
+              <select id="dropdown4-2" name="dropdown4-2" class="form-select">
+                <option value="CY" selected="">CY</option>
+                <option value="LY" selected="">LY</option>
+                <option value="CYVSLY" selected="">CY Vs LY</option>
+              </select>
+            </div>
+
+            <!-- Datasheet -->
+            <div class="col-md-3">
+              <label for="dropdown4-3" class="form-label text-secondary"
+                >Datasheet:</label
+              >
+              <select id="dropdown4-3" name="dropdown4-3" class="form-select">
+                <option value="YES">YES</option>
+                <option value="NO" selected="">NO</option>
+              </select>
+            </div>
+
+            <!-- Background Color -->
+            <div class="col-md-3">
+              <label for="dropdown4-4" class="form-label text-secondary"
+                >Background Color:</label
+              >
+              <select id="dropdown4-4" name="dropdown4-4" class="form-select">
+                <option value="aliceblue">Alice Blue</option>
+                <option value="aqua">Aqua</option>
+                <option value="beige">Beige</option>
+                <option value="cyan">Cyan</option>
+                <option value="lavender" selected="">Lavender</option>
+              </select>
+            </div>
+
+         
+          </div>
+
+          <div class="row mt-4">
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-primary w-100">
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
