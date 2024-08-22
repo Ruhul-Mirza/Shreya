@@ -1,4 +1,12 @@
-/* Custom CSS for nested dropdown */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    font-family: "Nunito Sans", sans-serif;
+}
+/*CSS */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .dropdown-menu .dropdown-submenu {
     position: relative;
 }
@@ -13,10 +21,12 @@
     transform: translateX(-10px);
     transition: all 0.3s ease-in-out;
 }
-.active{
-    border-bottom:2px solid black ;
+
+.active {
+    border-bottom: 2px solid black;
     font-weight: bold;
 }
+
 .dropdown-menu .dropdown-submenu:hover .dropdown-menu {
     display: block;
     opacity: 1;
@@ -46,9 +56,34 @@
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-
 .dropdown-menu {
     border-radius: 0.5rem;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
+
+/* welcome  */
+.welcome-container {
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+  }
+  .welcome-image {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  .welcome-text {
+    position: relative;
+    z-index: 1;
+  }
+  .welcome-heading {
+    font-size: 5rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  }
+  .welcome-subheading {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  }
